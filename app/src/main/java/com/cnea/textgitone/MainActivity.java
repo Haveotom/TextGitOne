@@ -12,7 +12,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         startActivity(new Intent(this,DataAty.class));
         /**
-         * 这流就是
+         * 这里就是我在jing_b1时候的改变
+         */
+        /**
+         * 再改变一次
          */
 
     }
