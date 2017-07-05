@@ -1,44 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
 
-    <data>
 
-        <import type="com.cnea.textgitone.MyStringUtils"/>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
 
-        <variable
-            name="jing"
-            type="com.cnea.textgitone.User"/>
-        <!--或者-->
-        <!--<import type="com.cnea.textgitone.User"/>-->
 
-        <!--<variable-->
-        <!--name="jing2"-->
-        <!--type="User"/>-->
-    </data>
+</LinearLayout>
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                  android:layout_width="match_parent"
-                  android:layout_height="match_parent"
-                  android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/data_tv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@{jing.name}"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@{MyStringUtils.capitalize(jing.address)}"/>
-
-        <Button
-            android:id="@+id/data_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="下一步"/>
-
-    </LinearLayout>
-
-</layout>
