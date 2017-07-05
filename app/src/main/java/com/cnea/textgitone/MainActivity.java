@@ -15,7 +15,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         startActivity(new Intent(this,DataAty.class));
+        /**
+         * 我也来这里改了呢
+         */
+        init();
+        initA();
 
+    }
+
+    private void initA() {
+        
+    }
+
+    private void init() {
+        /**
+         * 这可就是一个比较大的改动啊
+         */
     }
 
 
