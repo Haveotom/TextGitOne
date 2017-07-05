@@ -5,6 +5,10 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
+    /**
+     * b2来喽
+     * @param savedInstanceState
+     */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +21,19 @@ public class MainActivity extends AppCompatActivity {
         /**
          * 再改变一次
          */
+        init();
+        initA();
 
+    }
+
+    private void initA() {
+        
+    }
+
+    private void init() {
+        /**
+         * 这可就是一个比较大的改动啊
+         */
     }
 
 
